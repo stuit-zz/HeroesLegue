@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0FCA55F1D27EFFC005A9552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FCA55E1D27EFFC005A9552 /* main.m */; };
+		A0FCA5621D27EFFD005A9552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FCA5611D27EFFC005A9552 /* AppDelegate.m */; };
+		A0FCA5651D27EFFD005A9552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FCA5641D27EFFD005A9552 /* ViewController.m */; };
+		A0FCA5681D27EFFD005A9552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FCA5661D27EFFD005A9552 /* Main.storyboard */; };
+		A0FCA56B1D27EFFD005A9552 /* Heroes_League.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0FCA5691D27EFFD005A9552 /* Heroes_League.xcdatamodeld */; };
+		A0FCA56D1D27EFFD005A9552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0FCA56C1D27EFFD005A9552 /* Assets.xcassets */; };
+		A0FCA5701D27EFFD005A9552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FCA56E1D27EFFD005A9552 /* LaunchScreen.storyboard */; };
+		A0FCA57B1D27EFFD005A9552 /* Heroes_LeagueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FCA57A1D27EFFD005A9552 /* Heroes_LeagueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0FCA5771D27EFFD005A9552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0FCA5521D27EFFB005A9552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FCA5591D27EFFC005A9552;
+			remoteInfo = "Heroes League";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0FCA55A1D27EFFC005A9552 /* Heroes League.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heroes League.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FCA55E1D27EFFC005A9552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0FCA5601D27EFFC005A9552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0FCA5611D27EFFC005A9552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0FCA5631D27EFFD005A9552 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0FCA5641D27EFFD005A9552 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0FCA5671D27EFFD005A9552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0FCA56A1D27EFFD005A9552 /* Heroes_League.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heroes_League.xcdatamodel; sourceTree = "<group>"; };
+		A0FCA56C1D27EFFD005A9552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0FCA56F1D27EFFD005A9552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0FCA5711D27EFFD005A9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FCA5761D27EFFD005A9552 /* Heroes LeagueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heroes LeagueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FCA57A1D27EFFD005A9552 /* Heroes_LeagueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heroes_LeagueTests.m; sourceTree = "<group>"; };
+		A0FCA57C1D27EFFD005A9552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0FCA5571D27EFFC005A9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FCA5731D27EFFD005A9552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0FCA5511D27EFFB005A9552 = {
+			isa = PBXGroup;
+			children = (
+				A0FCA55C1D27EFFC005A9552 /* Heroes League */,
+				A0FCA5791D27EFFD005A9552 /* Heroes LeagueTests */,
+				A0FCA55B1D27EFFC005A9552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0FCA55B1D27EFFC005A9552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FCA55A1D27EFFC005A9552 /* Heroes League.app */,
+				A0FCA5761D27EFFD005A9552 /* Heroes LeagueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0FCA55C1D27EFFC005A9552 /* Heroes League */ = {
+			isa = PBXGroup;
+			children = (
+				A0FCA5601D27EFFC005A9552 /* AppDelegate.h */,
+				A0FCA5611D27EFFC005A9552 /* AppDelegate.m */,
+				A0FCA5631D27EFFD005A9552 /* ViewController.h */,
+				A0FCA5641D27EFFD005A9552 /* ViewController.m */,
+				A0FCA5661D27EFFD005A9552 /* Main.storyboard */,
+				A0FCA56C1D27EFFD005A9552 /* Assets.xcassets */,
+				A0FCA56E1D27EFFD005A9552 /* LaunchScreen.storyboard */,
+				A0FCA5711D27EFFD005A9552 /* Info.plist */,
+				A0FCA5691D27EFFD005A9552 /* Heroes_League.xcdatamodeld */,
+				A0FCA55D1D27EFFC005A9552 /* Supporting Files */,
+			);
+			path = "Heroes League";
+			sourceTree = "<group>";
+		};
+		A0FCA55D1D27EFFC005A9552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0FCA55E1D27EFFC005A9552 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0FCA5791D27EFFD005A9552 /* Heroes LeagueTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0FCA57A1D27EFFD005A9552 /* Heroes_LeagueTests.m */,
+				A0FCA57C1D27EFFD005A9552 /* Info.plist */,
+			);
+			path = "Heroes LeagueTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0FCA5591D27EFFC005A9552 /* Heroes League */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FCA57F1D27EFFD005A9552 /* Build configuration list for PBXNativeTarget "Heroes League" */;
+			buildPhases = (
+				A0FCA5561D27EFFC005A9552 /* Sources */,
+				A0FCA5571D27EFFC005A9552 /* Frameworks */,
+				A0FCA5581D27EFFC005A9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heroes League";
+			productName = "Heroes League";
+			productReference = A0FCA55A1D27EFFC005A9552 /* Heroes League.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0FCA5751D27EFFD005A9552 /* Heroes LeagueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FCA5821D27EFFD005A9552 /* Build configuration list for PBXNativeTarget "Heroes LeagueTests" */;
+			buildPhases = (
+				A0FCA5721D27EFFD005A9552 /* Sources */,
+				A0FCA5731D27EFFD005A9552 /* Frameworks */,
+				A0FCA5741D27EFFD005A9552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0FCA5781D27EFFD005A9552 /* PBXTargetDependency */,
+			);
+			name = "Heroes LeagueTests";
+			productName = "Heroes LeagueTests";
+			productReference = A0FCA5761D27EFFD005A9552 /* Heroes LeagueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0FCA5521D27EFFB005A9552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HL;
+				TargetAttributes = {
+					A0FCA5591D27EFFC005A9552 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A0FCA5751D27EFFD005A9552 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A0FCA5591D27EFFC005A9552;
+					};
+				};
+			};
+			buildConfigurationList = A0FCA5551D27EFFB005A9552 /* Build configuration list for PBXProject "Heroes League" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0FCA5511D27EFFB005A9552;
+			productRefGroup = A0FCA55B1D27EFFC005A9552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0FCA5591D27EFFC005A9552 /* Heroes League */,
+				A0FCA5751D27EFFD005A9552 /* Heroes LeagueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0FCA5581D27EFFC005A9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FCA5701D27EFFD005A9552 /* LaunchScreen.storyboard in Resources */,
+				A0FCA56D1D27EFFD005A9552 /* Assets.xcassets in Resources */,
+				A0FCA5681D27EFFD005A9552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FCA5741D27EFFD005A9552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0FCA5561D27EFFC005A9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FCA5651D27EFFD005A9552 /* ViewController.m in Sources */,
+				A0FCA5621D27EFFD005A9552 /* AppDelegate.m in Sources */,
+				A0FCA56B1D27EFFD005A9552 /* Heroes_League.xcdatamodeld in Sources */,
+				A0FCA55F1D27EFFC005A9552 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FCA5721D27EFFD005A9552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FCA57B1D27EFFD005A9552 /* Heroes_LeagueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0FCA5781D27EFFD005A9552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0FCA5591D27EFFC005A9552 /* Heroes League */;
+			targetProxy = A0FCA5771D27EFFD005A9552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0FCA5661D27EFFD005A9552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0FCA5671D27EFFD005A9552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0FCA56E1D27EFFD005A9552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0FCA56F1D27EFFD005A9552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0FCA57D1D27EFFD005A9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0FCA57E1D27EFFD005A9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0FCA5801D27EFFD005A9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Heroes League/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexus.Heroes-League";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0FCA5811D27EFFD005A9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Heroes League/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexus.Heroes-League";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0FCA5831D27EFFD005A9552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Heroes LeagueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexus.Heroes-LeagueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroes League.app/Heroes League";
+			};
+			name = Debug;
+		};
+		A0FCA5841D27EFFD005A9552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Heroes LeagueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nexus.Heroes-LeagueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroes League.app/Heroes League";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0FCA5551D27EFFB005A9552 /* Build configuration list for PBXProject "Heroes League" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FCA57D1D27EFFD005A9552 /* Debug */,
+				A0FCA57E1D27EFFD005A9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FCA57F1D27EFFD005A9552 /* Build configuration list for PBXNativeTarget "Heroes League" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FCA5801D27EFFD005A9552 /* Debug */,
+				A0FCA5811D27EFFD005A9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0FCA5821D27EFFD005A9552 /* Build configuration list for PBXNativeTarget "Heroes LeagueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FCA5831D27EFFD005A9552 /* Debug */,
+				A0FCA5841D27EFFD005A9552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0FCA5691D27EFFD005A9552 /* Heroes_League.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0FCA56A1D27EFFD005A9552 /* Heroes_League.xcdatamodel */,
+			);
+			currentVersion = A0FCA56A1D27EFFD005A9552 /* Heroes_League.xcdatamodel */;
+			path = Heroes_League.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0FCA5521D27EFFB005A9552 /* Project object */;
+}
