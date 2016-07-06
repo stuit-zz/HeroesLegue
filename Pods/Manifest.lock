@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - APParallaxHeader (0.1.6)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - Masonry (0.6.4)
+  - NSAttributedString-DDHTML (1.2.0)
+  - RestKit (0.24.1):
+    - RestKit/Core (= 0.24.1)
+  - RestKit/Core (0.24.1):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.24.1):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.24.1):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.24.1):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.24.1):
+    - TransitionKit (~> 2.1.0)
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SOCKit (1.1)
+  - SVProgressHUD (1.1.3)
+  - SVPullToRefresh (HEAD based on 0.4.1)
+  - TransitionKit (2.1.1)
+
+DEPENDENCIES:
+  - APParallaxHeader (~> 0.1)
+  - MagicalRecord (~> 2.3)
+  - Masonry (~> 0.6)
+  - NSAttributedString-DDHTML
+  - RestKit (~> 0.24.0)
+  - SDWebImage (~> 3.7)
+  - SVProgressHUD (= 1.1.3)
+  - SVPullToRefresh (HEAD)
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  NSAttributedString-DDHTML: 59a7bcd44b92cb7f6f6ef26f52c4baad6b1d01ba
+  RestKit: 1987b5efef289c6b27bd980714d6ca48d3871b78
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+
+COCOAPODS: 0.38.2

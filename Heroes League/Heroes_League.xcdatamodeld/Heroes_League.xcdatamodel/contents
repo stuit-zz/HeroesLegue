@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15A282b" minimumToolsVersion="Automatic">
+    <entity name="HLCharacter" representedClassName="HLCharacter" syncable="YES">
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serverID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLComics" inverseName="characters" inverseEntity="HLComics" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLEvent" inverseName="characters" inverseEntity="HLEvent" syncable="YES"/>
+        <relationship name="series" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLSerie" inverseName="characters" inverseEntity="HLSerie" syncable="YES"/>
+        <relationship name="stories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLStory" inverseName="characters" inverseEntity="HLStory" syncable="YES"/>
+    </entity>
+    <entity name="HLComics" representedClassName="HLComics" syncable="YES">
+        <attribute name="serverID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="characters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLCharacter" inverseName="comics" inverseEntity="HLCharacter" syncable="YES"/>
+    </entity>
+    <entity name="HLEvent" representedClassName="HLEvent" syncable="YES">
+        <attribute name="serverID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="characters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLCharacter" inverseName="events" inverseEntity="HLCharacter" syncable="YES"/>
+    </entity>
+    <entity name="HLSerie" representedClassName="HLSerie" syncable="YES">
+        <attribute name="serverID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="characters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLCharacter" inverseName="series" inverseEntity="HLCharacter" syncable="YES"/>
+    </entity>
+    <entity name="HLStory" representedClassName="HLStory" syncable="YES">
+        <attribute name="serverID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="characters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HLCharacter" inverseName="stories" inverseEntity="HLCharacter" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HLCharacter" positionX="-99" positionY="-255" width="128" height="163"/>
+        <element name="HLComics" positionX="-360" positionY="48" width="128" height="103"/>
+        <element name="HLEvent" positionX="133" positionY="54" width="128" height="103"/>
+        <element name="HLSerie" positionX="81" positionY="192" width="128" height="103"/>
+        <element name="HLStory" positionX="-306" positionY="189" width="128" height="103"/>
+    </elements>
 </model>
